@@ -85,7 +85,7 @@ jobs:
             platforms: linux/amd64,linux/arm/v7,linux/arm64
             mcVersion: 1.20.4
           - variant: java17-graalvm
-            baseImage: container-registry.oracle.com/graalvm/jdk:17-ol10
+            baseImage: container-registry.oracle.com/graalvm/jdk:17-ol8
             platforms: linux/amd64,linux/arm64
             mcVersion: 1.20.4
         # JAVA 16
